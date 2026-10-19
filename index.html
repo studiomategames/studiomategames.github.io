@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Mate Games</title>
+<meta name="description" content="Juegos casuales para celular, hechos en Argentina.">
+<style>
+  :root { --tinta: #24384a; --suave: #5a6f80; --cielo: #a9dcf2; --crema: #fffdf7; --acento: #d9573a; --borde: #e6dcc6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--crema); color: var(--tinta); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { background: linear-gradient(180deg, var(--cielo), #e7f6fc); padding: 56px 16px 40px; text-align: center; }
+  h1 { font-size: 2.4rem; line-height: 1.1; margin: 16px 0 8px; letter-spacing: -.5px; }
+  header p { margin: 0; color: var(--suave); font-size: 1.1rem; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+  h2 { font-size: 1.3rem; margin: 0 0 16px; }
+  .juego { display: flex; gap: 20px; align-items: center; background: #fff; border: 1px solid var(--borde); border-radius: 20px; padding: 20px; }
+  .juego svg { flex: none; width: 96px; height: 96px; }
+  .juego h3 { margin: 0 0 4px; font-size: 1.25rem; }
+  .juego p { margin: 0 0 8px; color: var(--suave); }
+  .estado { display: inline-block; font-size: .85rem; background: #fdeee9; color: var(--acento); border-radius: 999px; padding: 2px 10px; font-weight: 600; }
+  a { color: var(--acento); }
+  footer { border-top: 1px solid var(--borde); text-align: center; padding: 24px 16px 40px; color: var(--suave); font-size: .95rem; }
+  @media (max-width: 520px) { .juego { flex-direction: column; text-align: center; } h1 { font-size: 2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <svg width="120" height="64" viewBox="0 0 120 64" aria-hidden="true">
+    <path d="M6 14 Q60 30 114 14" fill="none" stroke="#8a6a4a" stroke-width="3"/>
+    <path d="M24 18 h18 l4 8 -6 3 v20 h-18 v-20 l-6 -3 z" fill="#e05a47"/>
+    <path d="M54 22 h14 v26 l-7 -6 -7 6 z" fill="#2f6fdb"/>
+    <path d="M80 20 h16 l3 26 h-22 z" fill="#f2b632"/>
+  </svg>
+  <h1>Studio Mate Games</h1>
+  <p>Juegos casuales para celular, hechos en Argentina.</p>
+</header>
+<main>
+  <h2>Nuestros juegos</h2>
+  <div class="juego">
+    <svg viewBox="0 0 96 96" aria-hidden="true">
+      <rect width="96" height="96" rx="22" fill="#a9dcf2"/>
+      <path d="M10 30 Q48 44 86 30" fill="none" stroke="#8a6a4a" stroke-width="2.5"/>
+      <path d="M16 33 h14 l3 6 -4 2 v16 h-14 v-16 l-4 -2 z" fill="#e05a47"/>
+      <path d="M41 37 h12 v22 l-6 -5 -6 5 z" fill="#2f6fdb"/>
+      <path d="M63 35 h14 l3 22 h-20 z" fill="#f2b632"/>
+      <circle cx="48" cy="76" r="10" fill="#f3d2b8"/><path d="M38 74 q10 -14 20 0" fill="#d9d9d9"/>
+    </svg>
+    <div>
+      <h3>Tendedero</h3>
+      <p>Un puzle tranquilo y adictivo: ordená la ropa por color en las sogas del conventillo de Doña Rosa, entre lluvia, viento, gatos y horneros. 50 niveles y un desafío nuevo cada día.</p>
+      <span class="estado">Próximamente en Google Play</span>
+      <p style="margin-top:10px"><a href="tendedero/privacidad.html">Política de privacidad</a></p>
+    </div>
+  </div>
+</main>
+<footer>
+  Contacto: <a href="mailto:studiomategames@gmail.com">studiomategames@gmail.com</a><br>
+  © 2026 Studio Mate Games · Buenos Aires, Argentina
+</footer>
+</body>
+</html>
